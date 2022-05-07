@@ -1,0 +1,100 @@
+img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
+    body{
+        font-family:'Poppins',sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300&display=swap');
+
+    .navigation{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: black;
+      }
+      h1{
+          padding: 5px;
+          padding-inline: 10px;
+      }
+      h1:hover{
+          background-color: black;
+          color: white;
+          border:2;
+          border-radius: 12px;
+      }
+
+
+      /* ################# showcase styling ######################### */
+
+
+      .showcase-area{
+        height: 90vh;
+        background:linear-gradient(rgba(240,240,240,0.15),rgba(255,255,255,0.15)) ,url("./loan\ 1.jpg") ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .showcase-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 2.2rem;
+    }
+    
+    .main-title{
+        text-transform: uppercase;
+        /* font-family:Arial, Helvetica, sans-serif; */
+        padding-left: 20px;
+        color:#f22105;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: left;
+        margin-right: 600px;
+        margin-top: 70px;
+    }
+    
+    .welcome{
+        font-weight: 700;
+        font-size: x-large;
+        text-align: left;
+        margin-right: 500px;
+        margin-top: 100px;
+        color:#f22105;
+
+    }
+
+    
+.btn {
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em ;
+    font-weight: 500;
+    margin-right:500px;
+
+}
+
+.btn-primary{
+    /* color: #fff; */
+    color:#000;
+    background: #fa3c23;
+}
+
+.btn-sec{
+    padding: 30px;
+    font-size: large;
+    color: #eee;
+}
+
+
+.btn:hover{
+    background-color:#fa624d;
+}
+
+
